@@ -21,6 +21,7 @@ class slamysock(Namespace):
 
     def on_lidar_data(self, data):
         emit('lidar_data', data, broadcast =True)
+        #print(data)
 
     def on_my_event(self, json):
         print('received json: ' + str(json))
