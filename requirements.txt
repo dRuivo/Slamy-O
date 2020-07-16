@@ -1,0 +1,7 @@
+numpy
+adafruit_rplidar
+pyserial
+flask
+flask-socketio
+requests
+socketio
