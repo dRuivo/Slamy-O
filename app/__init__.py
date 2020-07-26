@@ -23,6 +23,10 @@ class slamysock(Namespace):
         emit('lidar_data', data, broadcast =True)
         #print(data)
 
+    def on_velocity_cmd(self, data):
+        emit('velocity_cmd', data, broadcast =True)
+        print(data)
+
     def on_my_event(self, json):
         print('received json: ' + str(json))
 

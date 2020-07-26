@@ -57,6 +57,6 @@ try:
 
 except KeyboardInterrupt:
     print("disconnecting")
-    sio.disconnect()
-    lidar.stop()
-    lidar.disconnect()
+sio.disconnect()
+lidar.stop()
+lidar.disconnect()
