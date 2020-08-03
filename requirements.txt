@@ -4,4 +4,5 @@ pyserial
 flask
 flask-socketio
 requests
-socketio
+python-socketio[client]
+matplotlib
